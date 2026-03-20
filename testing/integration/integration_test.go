@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/zoobzio/vecna"
+	"github.com/zoobz-io/vecna"
 )
 
 // Integration tests validate end-to-end filter construction workflows.

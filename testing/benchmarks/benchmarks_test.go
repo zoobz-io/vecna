@@ -3,7 +3,7 @@ package benchmarks
 import (
 	"testing"
 
-	"github.com/zoobzio/vecna"
+	"github.com/zoobz-io/vecna"
 )
 
 type BenchMetadata struct {

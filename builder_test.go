@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/zoobzio/sentinel"
+	"github.com/zoobz-io/sentinel"
 )
 
 // Test metadata struct.

@@ -12,6 +12,10 @@ coverage.out
 coverage.html
 coverage.txt
 
+# Profiling
+*.prof
+*.pprof
+
 # IDE
 .idea/
 .vscode/
@@ -25,3 +29,6 @@ Thumbs.db
 # Build
 dist/
 vendor/
+
+# Claude
+.claude/
