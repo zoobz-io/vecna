@@ -4,7 +4,7 @@ package testing
 import (
 	"testing"
 
-	"github.com/zoobzio/vecna"
+	"github.com/zoobz-io/vecna"
 )
 
 // DocumentMetadata is a standard test schema for vecna tests.

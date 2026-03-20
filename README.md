@@ -1,13 +1,13 @@
 # vecna
 
-[![CI](https://github.com/zoobzio/vecna/actions/workflows/ci.yml/badge.svg)](https://github.com/zoobzio/vecna/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/zoobzio/vecna/branch/main/graph/badge.svg)](https://codecov.io/gh/zoobzio/vecna)
-[![Go Report Card](https://goreportcard.com/badge/github.com/zoobzio/vecna)](https://goreportcard.com/report/github.com/zoobzio/vecna)
-[![CodeQL](https://github.com/zoobzio/vecna/actions/workflows/codeql.yml/badge.svg)](https://github.com/zoobzio/vecna/actions/workflows/codeql.yml)
-[![Go Reference](https://pkg.go.dev/badge/github.com/zoobzio/vecna.svg)](https://pkg.go.dev/github.com/zoobzio/vecna)
-[![License](https://img.shields.io/github/license/zoobzio/vecna)](LICENSE)
-[![Go Version](https://img.shields.io/github/go-mod/go-version/zoobzio/vecna)](go.mod)
-[![Release](https://img.shields.io/github/v/release/zoobzio/vecna)](https://github.com/zoobzio/vecna/releases)
+[![CI](https://github.com/zoobz-io/vecna/actions/workflows/ci.yml/badge.svg)](https://github.com/zoobz-io/vecna/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/zoobz-io/vecna/branch/main/graph/badge.svg)](https://codecov.io/gh/zoobz-io/vecna)
+[![Go Report Card](https://goreportcard.com/badge/github.com/zoobz-io/vecna)](https://goreportcard.com/report/github.com/zoobz-io/vecna)
+[![CodeQL](https://github.com/zoobz-io/vecna/actions/workflows/codeql.yml/badge.svg)](https://github.com/zoobz-io/vecna/actions/workflows/codeql.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/zoobz-io/vecna.svg)](https://pkg.go.dev/github.com/zoobz-io/vecna)
+[![License](https://img.shields.io/github/license/zoobz-io/vecna)](LICENSE)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/zoobz-io/vecna)](go.mod)
+[![Release](https://img.shields.io/github/v/release/zoobz-io/vecna)](https://github.com/zoobz-io/vecna/releases)
 
 Schema-validated filter builder for vector databases. Build type-safe metadata filters with compile-time field validation.
 
@@ -33,7 +33,7 @@ filter := builder.Where("categroy").Eq("tech")
 ## Install
 
 ```bash
-go get github.com/zoobzio/vecna
+go get github.com/zoobz-io/vecna
 ```
 
 Requires Go 1.24 or higher.
@@ -45,7 +45,7 @@ package main
 
 import (
     "fmt"
-    "github.com/zoobzio/vecna"
+    "github.com/zoobz-io/vecna"
 )
 
 type Metadata struct {
@@ -129,7 +129,7 @@ The spec is validated against your schema. Field typos and type mismatches are c
 
 ## Ecosystem
 
-vecna powers the filter system in [grub](https://github.com/zoobzio/grub), providing schema-validated queries across vector database providers.
+vecna powers the filter system in [grub](https://github.com/zoobz-io/grub), providing schema-validated queries across vector database providers.
 
 ```go
 // In grub - vecna filters translate to provider-specific syntax
@@ -162,7 +162,7 @@ Supported providers: Pinecone, Qdrant, Weaviate, Milvus, pgvector.
 - [API Reference](docs/4.reference/1.api.md) — Function documentation
 - [Types Reference](docs/4.reference/2.types.md) — Type definitions
 - [Operators](docs/4.reference/3.operators.md) — All filter operators
-- [pkg.go.dev](https://pkg.go.dev/github.com/zoobzio/vecna) — Generated docs
+- [pkg.go.dev](https://pkg.go.dev/github.com/zoobz-io/vecna) — Generated docs
 
 ## Contributing
 
